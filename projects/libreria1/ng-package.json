@@ -3,5 +3,17 @@
   "dest": "../../dist/libreria1",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    {
+      "input": "src/assets/css",
+      "glob": "**/*",
+      "output": "assets/css"
+    },
+    {
+      "input": "src/assets/images",
+      "glob": "**/*",
+      "output": "assets/images"
+    }
+  ]
 }
